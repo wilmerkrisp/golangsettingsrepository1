@@ -1,0 +1,8 @@
+<application>
+  <component name="UISettings">
+    <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
+    <option name="DISABLE_MNEMONICS" value="true" />
+    <option name="EDITOR_TAB_LIMIT" value="25" />
+    <option name="OPEN_TABS_AT_THE_END" value="true" />
+  </component>
+</application>
