@@ -162,4 +162,5 @@
   <action id="Vcs.Log.Refresh" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="db.sync.refresh.action" />
 </keymap>
