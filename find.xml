@@ -1,5 +1,8 @@
 <application>
   <component name="FindSettings">
+    <option name="customScope" value="Project 'proj3'" />
+    <option name="defaultScopeName" value="Project 'proj3'" />
+    <option name="SEARCH_SCOPE" value="Project 'proj3'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
