@@ -3,7 +3,7 @@
     <property name="created">2022-10-20T23:17:48</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2022.2.4.0.0</property>
-    <property name="modified">2022-10-25T15:52:11</property>
+    <property name="modified">2022-10-30T16:57:46</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -22,6 +22,41 @@
     <option name="DEFAULT_BRACES">
       <value>
         <option name="FOREGROUND" value="161617" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_1">
+      <value>
+        <option name="BACKGROUND" value="424347" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_2">
+      <value>
+        <option name="BACKGROUND" value="404745" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_3">
+      <value>
+        <option name="BACKGROUND" value="464843" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_4">
+      <value>
+        <option name="BACKGROUND" value="4b4541" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_5">
+      <value>
+        <option name="BACKGROUND" value="4b403f" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_COLOR_6">
+      <value>
+        <option name="BACKGROUND" value="4b3c3d" />
+      </value>
+    </option>
+    <option name="INDENT_RAINBOW_ERROR">
+      <value>
+        <option name="BACKGROUND" value="452828" />
       </value>
     </option>
   </attributes>
