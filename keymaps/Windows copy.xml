@@ -133,6 +133,7 @@
     <keyboard-shortcut first-keystroke="f17" />
     <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl #1000451" />
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt f9" />
