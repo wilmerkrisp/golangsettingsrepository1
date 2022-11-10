@@ -111,6 +111,7 @@
   <action id="ModifyObject" />
   <action id="Move" />
   <action id="NextDiff" />
+  <action id="QuickChangeScheme" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="f8" />
@@ -131,6 +132,7 @@
     <keyboard-shortcut first-keystroke="alt 3" />
     <keyboard-shortcut first-keystroke="f17" />
     <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt f9" />
