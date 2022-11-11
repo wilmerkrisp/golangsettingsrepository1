@@ -56,6 +56,9 @@
     <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="ExternalSystem.OpenConfig" />
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="FileStructurePopup" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
@@ -76,6 +79,7 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt n" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
@@ -90,6 +94,7 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GoOpenSettings" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
