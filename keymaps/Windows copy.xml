@@ -143,6 +143,7 @@
     <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="Rerun" />
+  <action id="Resume" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="alt 3" />
@@ -197,5 +198,9 @@
   <action id="generate_go_method">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
     <keyboard-shortcut first-keystroke="ctrl f2" />
+  </action>
+  <action id="org.leo.goanno.action.GoAnnoAction">
+    <keyboard-shortcut first-keystroke="ctrl meta slash" />
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
 </keymap>
