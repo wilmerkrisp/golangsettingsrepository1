@@ -151,6 +151,7 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowErrorDescription" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="f4" />
@@ -167,6 +168,10 @@
   <action id="Sql.EditParameter" />
   <action id="StepInto" />
   <action id="StepOver" />
+  <action id="SurroundWithLiveTemplate">
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+  </action>
   <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleLineBreakpoint" />
