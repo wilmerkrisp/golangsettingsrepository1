@@ -104,6 +104,11 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="f14" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="GotoNextError" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Hg.Commit.And.Push.Executor">
@@ -112,7 +117,6 @@
     <keyboard-shortcut first-keystroke="f24" />
   </action>
   <action id="InsertLiveTemplate">
-    <keyboard-shortcut first-keystroke="ctrl j" />
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="InspectCode">
