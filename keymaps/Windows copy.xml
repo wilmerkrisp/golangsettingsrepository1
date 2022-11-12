@@ -1,12 +1,19 @@
 <keymap version="1" name="Windows copy" parent="$default">
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="ChangeSignature" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ChangesView.ToggleCommitUi">
+    <keyboard-shortcut first-keystroke="f23" />
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+  </action>
   <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="f23" />
     <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
@@ -70,9 +77,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="f6" />
   </action>
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
+  <action id="FindNext" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="f5" />
@@ -88,6 +93,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
     <keyboard-shortcut first-keystroke="f22" />
     <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.Stage">
+    <keyboard-shortcut first-keystroke="f23" />
+    <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
   <action id="Git.Merge">
     <keyboard-shortcut first-keystroke="f21" />
@@ -112,7 +122,6 @@
   <action id="GotoNextError" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Hg.Commit.And.Push.Executor">
-    <keyboard-shortcut first-keystroke="ctrl alt k" />
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="f24" />
   </action>
@@ -125,6 +134,10 @@
   </action>
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
+  <action id="MethodHierarchy">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
+  </action>
   <action id="ModifyObject" />
   <action id="Move" />
   <action id="NavBar-navigate" />
@@ -187,11 +200,17 @@
     <keyboard-shortcut first-keystroke="ctrl alt j" />
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
+  <action id="Terminal.ClearBuffer" />
   <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleLineBreakpoint" />
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
   <action id="UML.ShowStructure" />
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
