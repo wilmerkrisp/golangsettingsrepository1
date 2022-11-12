@@ -4,7 +4,7 @@
     <property name="created">2022-10-20T23:17:48</property>
     <property name="ide">GoLand</property>
     <property name="ideVersion">2022.2.4.0.0</property>
-    <property name="modified">2022-11-12T00:12:55</property>
+    <property name="modified">2022-11-12T07:05:35</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -798,7 +798,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f3f349" />
+        <option name="FOREGROUND" value="464628" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
