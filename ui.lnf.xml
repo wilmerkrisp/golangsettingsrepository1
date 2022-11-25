@@ -4,5 +4,6 @@
     <option name="DISABLE_MNEMONICS" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="25" />
     <option name="OPEN_TABS_AT_THE_END" value="true" />
+    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
   </component>
 </application>
