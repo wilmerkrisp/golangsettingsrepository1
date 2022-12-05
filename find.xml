@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="File '…\main.go'" />
     <option name="defaultScopeName" value="File '…\main.go'" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File '…\main.go'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
