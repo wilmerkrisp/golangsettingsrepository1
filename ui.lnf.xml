@@ -3,6 +3,7 @@
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="DISABLE_MNEMONICS" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="25" />
+    <option name="OPEN_IN_PREVIEW_TAB_IF_POSSIBLE" value="true" />
     <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
   </component>
