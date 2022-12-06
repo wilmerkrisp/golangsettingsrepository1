@@ -3,6 +3,7 @@
     <option name="callTreeState">
       <call-tree-ui>
         <option name="showCalleesList" value="false" />
+        <option name="showPercentsOfRoot" value="false" />
       </call-tree-ui>
     </option>
   </component>
