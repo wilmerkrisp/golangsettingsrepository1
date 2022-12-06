@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".env.*" type="Env File" />
       <mapping ext="env" type="Env File" />
+      <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="prof" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
       <removed_mapping ext="env" approved="true" type=".env file" />
