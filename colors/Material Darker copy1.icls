@@ -1,16 +1,11 @@
-<scheme name="_@user_Material Darker" version="142" parent_scheme="Darcula">
+<scheme name="Material Darker copy1" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-10-20T23:17:48</property>
-    <property name="description" />
+    <property name="created">2022-12-06T18:53:40</property>
     <property name="ide">GoLand</property>
-    <property name="ideVersion">2022.2.4.0.0</property>
-    <property name="modified">2022-12-06T18:59:32</property>
-    <property name="originalScheme">Material Darker</property>
-    <property name="vendorMail" />
-    <property name="vendorName" />
-    <property name="vendorUrl">http://</property>
-    <property name="version">0.1</property>
+    <property name="ideVersion">2022.3.0.0</property>
+    <property name="modified">2022-12-06T18:56:12</property>
+    <property name="originalScheme">_@user_Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="11" />
