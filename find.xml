@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…\main.go'" />
-    <option name="defaultScopeName" value="File '…\main.go'" />
+    <option name="customScope" value="Current File" />
+    <option name="defaultScopeName" value="Current File" />
     <option name="localCaseSensitive" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="File '…\main.go'" />
+    <option name="SEARCH_SCOPE" value="Current File" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
