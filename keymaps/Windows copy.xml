@@ -1,4 +1,15 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="CallHierarchy">
@@ -11,16 +22,19 @@
   </action>
   <action id="ChangesView.ToggleCommitUi">
     <keyboard-shortcut first-keystroke="f23" />
-    <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="f23" />
-    <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
   <action id="CloseContent" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <keyboard-shortcut first-keystroke="f11" />
   </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl subtract" />
@@ -34,12 +48,12 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
-    <keyboard-shortcut first-keystroke="f10" />
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="f20" />
-    <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
+  <action id="CompileDirty" />
   <action id="Console.Oracle.DbmsOutput" />
   <action id="Console.TableResult.ColumnsList" />
   <action id="Console.TableResult.EditValue">
@@ -59,11 +73,16 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift f9" />
     <keyboard-shortcut first-keystroke="f18" />
-    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl f9" />
   </action>
   <action id="Docker.RemoteServers.StopComposeService" />
   <action id="Docker.RemoteServers.StopContainer" />
   <action id="EditSource" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl add" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl add" />
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
@@ -100,16 +119,13 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
     <keyboard-shortcut first-keystroke="f22" />
-    <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Commit.Stage">
     <keyboard-shortcut first-keystroke="f23" />
-    <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
   <action id="Git.Merge">
     <keyboard-shortcut first-keystroke="f21" />
-    <keyboard-shortcut first-keystroke="ctrl f9" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -130,7 +146,6 @@
   <action id="GotoNextError" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Hg.Commit.And.Push.Executor">
-    <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="f24" />
   </action>
   <action id="InsertLiveTemplate">
@@ -138,10 +153,11 @@
   </action>
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="f16" />
-    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl f7" />
   </action>
   <action id="Jdbc.OpenEditor.Data" />
   <action id="JumpToLastWindow" />
+  <action id="Log.JumpToSource" />
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
     <keyboard-shortcut first-keystroke="ctrl alt k" />
@@ -154,7 +170,7 @@
   <action id="QuickChangeScheme" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
-    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="Refresh" />
   <action id="RemoteHostView.EditSource" />
@@ -165,7 +181,7 @@
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="ctrl f6" />
   </action>
   <action id="Rerun" />
   <action id="Resume" />
@@ -173,15 +189,15 @@
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="alt 3" />
     <keyboard-shortcut first-keystroke="f17" />
-    <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
     <keyboard-shortcut first-keystroke="ctrl #1000451" />
+    <keyboard-shortcut first-keystroke="ctrl f4" />
   </action>
   <action id="RunDashboard.Stop" />
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt f9" />
     <keyboard-shortcut first-keystroke="f19" />
-    <keyboard-shortcut first-keystroke="ctrl f7" />
+    <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -201,8 +217,12 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Sql.EditParameter" />
-  <action id="StepInto" />
-  <action id="StepOver" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+  </action>
   <action id="Stop" />
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
@@ -232,6 +252,6 @@
   </action>
   <action id="org.leo.goanno.action.GoAnnoAction">
     <keyboard-shortcut first-keystroke="ctrl meta slash" />
-    <keyboard-shortcut first-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="ctrl f8" />
   </action>
 </keymap>
